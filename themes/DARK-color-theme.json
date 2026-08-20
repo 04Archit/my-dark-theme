@@ -239,14 +239,6 @@
       }
     },
 
-    // {
-    //   "name": "TypeScript Imports",
-    //   "scope": ["meta.import.ts"],
-    //   "settings": {
-    //     "foreground": "#9EB7CC"
-    //   }
-    // },
-
     {
       "name": "TypeScript Import Path",
       "scope": ["meta.import.ts string.quoted.double.ts"],
