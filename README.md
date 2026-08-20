@@ -1,4 +1,4 @@
-# CUSTOM DARK
+# Minimal Color Dark
 
 A soft, low-contrast dark theme for Visual Studio Code, designed for comfortable long coding sessions without flashy or overly saturated syntax highlighting.
 
@@ -13,7 +13,7 @@ A soft, low-contrast dark theme for Visual Studio Code, designed for comfortable
 
 ## Installation
 
-Search for **CUSTOM DARK** in the Visual Studio Code Extensions view and select **Install**.
+Search for **Minimal Color Dark** in the Visual Studio Code Extensions view and select **Install**.
 
 You can also install the theme manually from a `.vsix` package.
 
@@ -21,7 +21,7 @@ You can also install the theme manually from a `.vsix` package.
 
 Clone the repository and open the project in Visual Studio Code.
 
-Press `F5` to launch the Extension Development Host, then select **CUSTOM DARK** as the active color theme.
+Press `F5` to launch the Extension Development Host, then select **Minimal Color Dark** as the active color theme.
 
 ## License
 
