@@ -2,8 +2,13 @@
   "name": "minimal-color-dark",
   "displayName": "Minimal Color Dark",
   "description": "A soft, low-contrast dark theme designed for comfortable long coding sessions with minimal  eye strain and without flashy syntax highlighting.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "Dark-Voyage",
+  "icon": "images/iconcat.png",
+  "galleryBanner": {
+    "color": "#0A0A0A",
+    "theme": "dark"
+  },
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",

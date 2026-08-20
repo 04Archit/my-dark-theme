@@ -10,9 +10,9 @@
     "minimap.background": "#0A0A0A",
 
     "sideBar.background": "#080808",
-    "sideBar.foreground": "#929292",
+    "sideBar.foreground": "#808080",
     "sideBarSectionHeader.background": "#0A0A0A",
-    "sideBarTitle.foreground": "#B0B0B0",
+    "sideBarTitle.foreground": "#9A9A9A",
 
     "activityBar.background": "#080808",
     "activityBar.foreground": "#9A9A9A",
@@ -179,7 +179,11 @@
     "editorBracketHighlight.foreground3": "#A7C69F",
     "editorBracketHighlight.foreground4": "#8FB5D3",
     "editorBracketHighlight.foreground5": "#CFC08F",
-    "editorBracketHighlight.foreground6": "#A7C69F"
+    "editorBracketHighlight.foreground6": "#A7C69F",
+
+    "icon.foreground": "#808080",
+    "toolbar.hoverBackground": "#151515",
+    "toolbar.activeBackground": "#1A1A1A"
   },
 
   "tokenColors": [
