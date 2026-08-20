@@ -323,7 +323,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#AFAFAF"
+        "foreground": "#C0B0D0"
       }
     },
     {
@@ -816,7 +816,7 @@
       "settings": {
         "foreground": "#8FB5D3"
       }
-    }
+    },
   ],
 
   "semanticTokenColors": {
