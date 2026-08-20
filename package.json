@@ -2,7 +2,7 @@
   "name": "dark-theme-vscode",
   "displayName": "Dark",
   "description": "A soft, low-contrast dark theme designed for comfortable long coding sessions with minimal  eye strain and without flashy syntax highlighting.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Dark-Voyage",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
