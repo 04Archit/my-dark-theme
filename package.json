@@ -1,0 +1,27 @@
+{
+  "name": "dark-theme-vscode",
+  "displayName": "Dark",
+  "description": "A soft, low-contrast dark theme designed for comfortable long coding sessions with minimal  eye strain and without flashy syntax highlighting.",
+  "version": "1.0.0",
+  "publisher": "Dark-Voyage",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/04Archit/my-dark-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CUSTOM_DARK",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-color-theme.json"
+      }
+    ]
+  }
+}

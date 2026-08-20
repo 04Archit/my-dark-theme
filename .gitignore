@@ -1,0 +1,15 @@
+# VS Code
+.vscode/*.code-workspace
+
+# Build / packaged extension
+*.vsix
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
