@@ -18,7 +18,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "CUSTOM_DARK",
+        "label": "Minimal Color Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/DARK-color-theme.json"
       }
