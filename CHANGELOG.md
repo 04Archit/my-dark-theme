@@ -2,12 +2,8 @@
 
 All notable changes to CUSTOM DARK will be documented in this file.
 
-## [1.0.0] - 2026-08-20
+## [1.0.8] - 2026-09-17
 
 ### Added
 
-- Initial public release of CUSTOM DARK.
-- Near-black VS Code workbench.
-- Muted blue, lavender, green, and yellow syntax palette.
-- Semantic highlighting support.
-- Custom bracket, import, regex, variable, function, and Markdown styling.
+- Added a few more colors to the syntax as while reading the code it was getting a lil tough to find variable, function name, etc.

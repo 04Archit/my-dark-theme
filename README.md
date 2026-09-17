@@ -11,11 +11,9 @@ A soft, low-contrast dark theme for Visual Studio Code, designed for comfortable
 - Carefully tuned variables, functions, types, brackets, imports, regex, and Markdown
 - Designed for long coding sessions
 
-## Installation
+## Installation 
 
 Search for **Minimal Color Dark** in the Visual Studio Code Extensions view and select **Install**.
-
-You can also install the theme manually from a `.vsix` package.
 
 ## Development
 
