@@ -1,8 +1,8 @@
 {
   "name": "minimal-color-dark",
   "displayName": "Minimal Color Dark",
-  "description": "A soft, low-contrast dark theme designed for comfortable long coding sessions with minimal  eye strain and without flashy syntax highlighting.",
-  "version": "1.0.9",
+  "description": "A minimal near-black VS Code theme featuring two syntax highlighting variants: soft, muted colors and classic VS Code Dark+ syntax.",
+  "version": "1.0.10",
   "publisher": "Dark-Voyage",
   "icon": "images/iconcat.png",
   "galleryBanner": {
@@ -26,7 +26,15 @@
         "label": "Minimal Color Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/DARK-color-theme.json"
+      },
+      {
+        "label": "Minimal Color Dark (Classic Syntax)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-classic-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "jsonc-parser": "^3.3.1"
   }
 }

@@ -1,9 +1,10 @@
-# Changelog
-
-All notable changes to CUSTOM DARK will be documented in this file.
-
-## [1.0.8] - 2026-09-17
+## [1.0.10]
 
 ### Added
+- Introduced "Minimal Color Dark (Classic Syntax)" as a second theme.
+- Added classic VS Code Dark+ syntax highlighting.
+- Included Microsoft VS Code syntax attribution.
 
-- Added a few more colors to the syntax as while reading the code it was getting a lil tough to find variable, function name, etc.
+### Improved
+- Users can now choose between custom muted syntax highlighting and classic VS Code syntax colors.
+- Both variants retain the same Minimal Color Dark workbench appearance.
