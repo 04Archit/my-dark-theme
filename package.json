@@ -2,7 +2,7 @@
   "name": "minimal-color-dark",
   "displayName": "Minimal Color Dark",
   "description": "A minimal near-black VS Code theme featuring three syntax highlighting variants: custom muted colors, classic Dark+, and a softened VS Code 2026 Dark palette.",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "publisher": "Dark-Voyage",
   "icon": "images/iconcat.png",
   "galleryBanner": {
