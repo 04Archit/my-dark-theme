@@ -28,3 +28,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## 2026 Dark syntax attribution
+
+The syntax highlighting in `themes/DARK-2026-color-theme.json` is derived from
+Microsoft Visual Studio Code 1.141.1 (MIT License):
+
+- `extensions/theme-defaults/themes/dark_vs.json`
+- `extensions/theme-defaults/themes/dark_plus.json`
+- `extensions/theme-defaults/themes/dark_modern.json`
+- `extensions/theme-defaults/themes/2026-dark.json`

@@ -2,7 +2,7 @@
 
 A minimal, near-black Visual Studio Code theme designed for a clean workspace and comfortable coding sessions.
 
-**Now includes two syntax highlighting variants:** a custom muted palette and the familiar VS Code Dark+ palette, both sharing the same Minimal Color Dark workbench.
+**Now includes three syntax highlighting variants:** a custom muted palette, classic VS Code Dark+ syntax, and a softened VS Code 2026 Dark syntax palette — all sharing the same Minimal Color Dark workbench.
 
 ## Available Themes
 
@@ -31,9 +31,21 @@ The same minimal workbench with classic VS Code Dark+ syntax highlighting.
 
 Designed for developers who enjoy the familiar Dark+ syntax colors but prefer a cleaner, darker workbench.
 
+### Minimal Color Dark (2026 Syntax)
+
+A modern syntax-highlighting variant based on Microsoft's VS Code 2026 Dark theme, adapted for the Minimal Color Dark workbench.
+
+- Modern red, pink, blue, purple, green, and yellow syntax colors.
+- Slightly reduced saturation for a softer visual experience.
+- Clear differentiation between functions, variables, keywords, parameters, and types.
+- Full TextMate and semantic highlighting support.
+- The same near-black workbench used by the other variants.
+
+Designed for developers who prefer modern, colorful syntax highlighting without excessively saturated colors.
+
 ## Shared Features
 
-Both themes include:
+All three themes include:
 
 - Near-black editor background (`#0A0A0A`)
 - Dark sidebar, activity bar, tabs, and status bar
@@ -51,11 +63,12 @@ Both themes include:
 4. Click **Install**.
 5. Open the Command Palette (`Ctrl + Shift + P`).
 6. Select **Preferences: Color Theme**.
-7. Choose either:
+7. Choose one of the three themes:
    - **Minimal Color Dark**
    - **Minimal Color Dark (Classic Syntax)**
+   - **Minimal Color Dark (2026 Syntax)**
 
-You can switch between the two variants at any time.
+You can switch between all three variants at any time.
 
 ## Development
 
@@ -64,9 +77,13 @@ To test the themes locally:
 1. Clone this repository.
 2. Open the extension project in Visual Studio Code.
 3. Press `F5` to launch the Extension Development Host.
-4. Open **Preferences: Color Theme** and select either variant.
+4. Open **Preferences: Color Theme** and select any of the three variants.
 
-The Classic Syntax variant uses syntax definitions derived from Microsoft's VS Code Dark+ theme. See [Third-Party Notices](THIRD_PARTY_NOTICES.md) for attribution.
+
+The Classic Syntax and 2026 Syntax variants use syntax definitions derived from Microsoft's Visual Studio Code themes. The 2026 palette has been slightly desaturated for a softer appearance.
+
+See [Third-Party Notices](THIRD_PARTY_NOTICES.md) for source attribution and licensing information.
+
 
 ## License
 
