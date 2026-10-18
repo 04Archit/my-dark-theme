@@ -1,7 +1,12 @@
-## [1.0.12]
+## [1.0.13]
+
+### Added
+- Introduced Minimal Color Dark (Graphite), a fourth theme variant.
+- Added a softer graphite workbench with improved panel separation.
+- Retained the original Minimal Color Dark syntax highlighting.
 
 ### Improved
-- Increased indentation guide visibility across all three themes.
-- Brightened active indentation and bracket-pair guides.
-- Improved code block readability and navigation.
-- Preserved existing syntax highlighting and workbench colors.
+- Enhanced visual distinction between editor panels,
+  sidebar surfaces, tabs, and interactive elements.
+- Preserved the existing indentation and bracket guide styling.
+- Kept all three previously released themes unchanged.
