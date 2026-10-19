@@ -1,8 +1,8 @@
 {
   "name": "minimal-color-dark",
   "displayName": "Minimal Color Dark",
-  "description": "A minimal near-black VS Code theme featuring three syntax highlighting variants: custom muted colors, classic Dark+, and a softened VS Code 2026 Dark palette.",
-  "version": "1.0.13",
+  "description": "A collection of 15 minimal dark VS Code themes featuring 5 workbench styles and 3 syntax highlighting palettes: Custom Muted, Classic Dark+, and 2026 Dark.",
+  "version": "1.1.0",
   "publisher": "Dark-Voyage",
   "icon": "images/iconcat.png",
   "galleryBanner": {
@@ -23,24 +23,94 @@
   "contributes": {
     "themes": [
       {
-        "label": "Minimal Color Dark",
+        "label": "Minimal Color Dark — Near-Black · Muted",
         "uiTheme": "vs-dark",
-        "path": "./themes/DARK-color-theme.json"
+        "path": "./themes/DARK-color-theme.json",
+        "id": "Minimal Color Dark"
       },
       {
-        "label": "Minimal Color Dark (Classic Syntax)",
+        "label": "Minimal Color Dark — Near-Black · Classic",
         "uiTheme": "vs-dark",
-        "path": "./themes/DARK-classic-color-theme.json"
+        "path": "./themes/DARK-classic-color-theme.json",
+        "id": "Minimal Color Dark (Classic Syntax)"
       },
       {
-        "label": "Minimal Color Dark (2026 Syntax)",
+        "label": "Minimal Color Dark — Near-Black · 2026",
         "uiTheme": "vs-dark",
-        "path": "./themes/DARK-2026-color-theme.json"
+        "path": "./themes/DARK-2026-color-theme.json",
+        "id": "Minimal Color Dark (2026 Syntax)"
       },
       {
-        "label": "Minimal Color Dark (Graphite)",
+        "label": "Minimal Color Dark — Graphite · Muted",
         "uiTheme": "vs-dark",
-        "path": "./themes/DARK-graphite-color-theme.json"
+        "path": "./themes/DARK-graphite-color-theme.json",
+        "id": "Minimal Color Dark (Graphite)"
+      },
+      {
+        "label": "Minimal Color Dark — Graphite · Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-graphite-classic-color-theme.json",
+        "id": "Minimal Color Dark (Graphite, Classic Syntax)"
+      },
+      {
+        "label": "Minimal Color Dark — Graphite · 2026",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-graphite-2026-color-theme.json",
+        "id": "Minimal Color Dark (Graphite, 2026 Syntax)"
+      },
+      {
+        "label": "Minimal Color Dark — Soft Charcoal · Muted",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-charcoal-color-theme.json",
+        "id": "Minimal Color Dark (Soft Charcoal)"
+      },
+      {
+        "label": "Minimal Color Dark — Soft Charcoal · Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-charcoal-classic-color-theme.json",
+        "id": "Minimal Color Dark (Soft Charcoal, Classic Syntax)"
+      },
+      {
+        "label": "Minimal Color Dark — Soft Charcoal · 2026",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-charcoal-2026-color-theme.json",
+        "id": "Minimal Color Dark (Soft Charcoal, 2026 Syntax)"
+      },
+      {
+        "label": "Minimal Color Dark — OLED Black · Muted",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-oled-color-theme.json",
+        "id": "Minimal Color Dark (OLED Black)"
+      },
+      {
+        "label": "Minimal Color Dark — OLED Black · Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-oled-classic-color-theme.json",
+        "id": "Minimal Color Dark (OLED Black, Classic Syntax)"
+      },
+      {
+        "label": "Minimal Color Dark — OLED Black · 2026",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-oled-2026-color-theme.json",
+        "id": "Minimal Color Dark (OLED Black, 2026 Syntax)"
+      },
+      {
+        "label": "Minimal Color Dark — Warm Graphite · Muted",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-warm-graphite-color-theme.json",
+        "id": "Minimal Color Dark (Warm Graphite)"
+      },
+      {
+        "label": "Minimal Color Dark — Warm Graphite · Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-warm-graphite-classic-color-theme.json",
+        "id": "Minimal Color Dark (Warm Graphite, Classic Syntax)"
+      },
+      {
+        "label": "Minimal Color Dark — Warm Graphite · 2026",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-warm-graphite-2026-color-theme.json",
+        "id": "Minimal Color Dark (Warm Graphite, 2026 Syntax)"
       }
     ]
   },

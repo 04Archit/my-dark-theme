@@ -1,143 +1,92 @@
 # Minimal Color Dark
 
-A minimal, carefully designed collection of dark themes for Visual Studio Code, built for a clean workspace, comfortable coding sessions, and reduced visual distractions.
+**Five workbench styles. Three syntax palettes. Fifteen dark themes for Visual Studio Code.**
 
-**Now featuring four theme variants**, combining custom muted syntax colors, classic VS Code syntax highlighting, modern 2026 syntax colors, and two distinct dark workbench styles.
+Minimal Color Dark is a collection of understated VS Code color themes built around neutral workbench surfaces and a choice of syntax-highlighting styles. Choose the background that suits your workspace, then pair it with **Muted**, **Classic**, or **2026** syntax colors.
 
-## Available Themes
+## Choose a Workbench
 
-### 1. Minimal Color Dark
+Each workbench changes the appearance of the editor and surrounding UI while keeping the selected syntax palette consistent.
 
-The original theme, featuring a near-black workbench and carefully balanced, low-saturation syntax highlighting.
+| Workbench | Editor background | Sidebar / bars | Character |
+| --- | --- | --- | --- |
+| **Near-Black** | `#0A0A0A` | `#080808` | The original minimal, nearly black design |
+| **Graphite** | `#141414` | `#101010` | Softer neutral greys with clearer surface separation |
+| **Soft Charcoal** | `#1B1B1B` | `#151515` | A lighter dark workspace with gentle contrast |
+| **OLED Black** | `#000000` | `#000000` | Pure-black main surfaces with restrained accents |
+| **Warm Graphite** | `#15120F` | `#100E0C` | Subtle warm charcoal and brown undertones |
 
-**Features:**
-- Near-black editor and workbench backgrounds
-- Muted lavender keywords
-- Soft mauve functions and methods
-- Subtle sage and cream variables
-- Gentle green strings and warm yellow numbers
-- Minimal visual distractions
+All five workbenches retain the collection's minimal approach to tabs, panels, menus, input controls, selections, indentation guides, and bracket-pair guides.
 
-Designed for developers who prefer a softer, understated syntax palette.
+## Choose a Syntax Palette
 
-### 2. Minimal Color Dark (Classic Syntax)
+Every workbench is available with each of these three highlighting options:
 
-The original Minimal Color Dark workbench combined with familiar Visual Studio Code Dark+ syntax highlighting.
+- **Muted** — The original custom palette: subdued lavender keywords, mauve functions, sage-green strings, and warm neutral accents.
+- **Classic** — Familiar VS Code Dark+ syntax colors, including blue keywords, yellow functions, orange strings, and green comments.
+- **2026** — Syntax rules derived from VS Code's 2026 Dark theme, with colors softened to reduce saturation while retaining their distinctive hues.
 
-**Features:**
-- Familiar blue and purple keywords
-- Yellow functions and methods
-- Light-blue variables
-- Orange strings
-- Green comments
-- Classic VS Code syntax highlighting conventions
+The Classic and 2026 palettes are based on Microsoft Visual Studio Code theme definitions; attribution is provided in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Designed for developers who enjoy traditional Dark+ syntax colors but prefer a cleaner, darker workbench.
+## All 15 Theme Combinations
 
-### 3. Minimal Color Dark (2026 Syntax)
+The theme picker uses a consistent naming convention:
 
-A modern syntax-highlighting variant derived from Microsoft's Visual Studio Code 2026 Dark theme.
+`Minimal Color Dark — [Workbench] · [Syntax]`
 
-**Features:**
-- Modern red, pink, blue, purple, green, and yellow syntax colors
-- Slightly reduced saturation for a softer appearance
-- Clear differentiation between functions, variables, keywords, parameters, and types
-- TextMate and semantic highlighting support
-- The same near-black workbench as the original theme
+| Workbench | Muted | Classic | 2026 |
+| --- | :---: | :---: | :---: |
+| Near-Black | Yes | Yes | Yes |
+| Graphite | Yes | Yes | Yes |
+| Soft Charcoal | Yes | Yes | Yes |
+| OLED Black | Yes | Yes | Yes |
+| Warm Graphite | Yes | Yes | Yes |
 
-Designed for developers who prefer modern, colorful syntax highlighting without excessively saturated colors.
+For example, select **Minimal Color Dark — Graphite · Classic** for the Graphite workbench with VS Code Dark+ syntax, or **Minimal Color Dark — OLED Black · 2026** for a pure-black workbench with the softened 2026 palette.
 
-### 4. Minimal Color Dark (Graphite)
+## Features
 
-A softer alternative to the original near-black workbench, featuring neutral graphite surfaces and improved visual separation between interface elements.
+- Five coordinated dark workbench styles
+- Three independently selectable syntax-highlighting palettes per workbench
+- Minimal, low-distraction sidebar, tab, panel, and status bar styling
+- Readable active and inactive indentation guides
+- Bracket-pair colorization and guide styling
+- Subtle selection, hover, autocomplete, and editor-widget colors
+- Coordinated terminal ANSI colors
+- TextMate and semantic syntax-highlighting rules
 
-**Features:**
-- Graphite editor background (`#141414`)
-- Darker sidebar, activity bar, title bar, and status bar (`#101010`)
-- Improved separation between editor panels, tabs, menus, and floating elements
-- Subtle grey selection and hover backgrounds
-- Comfortable contrast for extended coding sessions
-- The same custom muted syntax highlighting as the original Minimal Color Dark theme
-- Preserved indentation guides and bracket-pair styling
-
-Designed for developers who enjoy minimal dark interfaces but prefer a slightly lighter and more layered workbench.
-
-## Workbench and Syntax Comparison
-
-| Theme | Workbench | Syntax Highlighting |
-|---|---|---|
-| Minimal Color Dark | Near-Black | Custom Muted |
-| Minimal Color Dark (Classic Syntax) | Near-Black | VS Code Dark+ |
-| Minimal Color Dark (2026 Syntax) | Near-Black | Softened VS Code 2026 Dark |
-| Minimal Color Dark (Graphite) | Graphite Dark | Custom Muted |
-
-All variants share the same minimal design philosophy, while offering different visual experiences.
-
-## Shared Features
-
-All four themes include:
-
-- Clean, distraction-free interface styling
-- Carefully selected dark backgrounds
-- Muted workbench icons and interface elements
-- Custom terminal ANSI colors
-- Subtle selection and hover effects
-- Visible indentation guides
-- Bracket-pair colorization
-- Semantic syntax highlighting support
-- Support for Visual Studio Code's built-in programming language grammars and compatible extensions
+Syntax appearance also depends on the language grammar, semantic tokens, and editor settings in use.
 
 ## Installation
 
-1. Open Visual Studio Code.
-2. Open the Extensions panel (`Ctrl + Shift + X`).
-3. Search for **Minimal Color Dark**.
-4. Click **Install**.
-5. Open the Command Palette (`Ctrl + Shift + P`).
-6. Select **Preferences: Color Theme**.
-7. Choose one of the available themes:
-   - **Minimal Color Dark**
-   - **Minimal Color Dark (Classic Syntax)**
-   - **Minimal Color Dark (2026 Syntax)**
-   - **Minimal Color Dark (Graphite)**
+1. Open **Visual Studio Code**.
+2. Open **Extensions** (`Ctrl + Shift + X`).
+3. Search for **Minimal Color Dark** by **Dark-Voyage** and select **Install**.
+4. Open **Preferences: Color Theme** with `Ctrl + K`, then `Ctrl + T`.
+5. Choose the workbench and syntax combination you prefer.
 
-You can switch between the four themes at any time using `Ctrl + K`, followed by `Ctrl + T`.
+You can switch themes at any time without reinstalling the extension.
 
-## Development
+## Local Development
 
-To test or contribute to the themes locally:
+To test the theme collection from source:
 
-1. Clone this repository:
+```bash
+git clone https://github.com/04Archit/my-dark-theme.git
+cd my-dark-theme
+npm install
+```
 
-   ```bash
-   git clone https://github.com/04Archit/my-dark-theme.git
-   ```
-
-2. Open the extension project in Visual Studio Code.
-3. Install development dependencies using `npm install`.
-4. Press `F5` to launch the Extension Development Host.
-5. Open **Preferences: Color Theme** and select the variant you want to test.
+Open the folder containing `package.json` in VS Code, press `F5` to launch an **Extension Development Host**, and select a theme using **Preferences: Color Theme**.
 
 ### Theme Architecture
 
-The original theme provides the primary custom syntax palette and near-black workbench.
+The three syntax palettes are defined by the original, Classic, and 2026 theme files in `themes/`. Other workbench combinations use VS Code's theme `include` mechanism to inherit a syntax palette and override workbench colors. This avoids duplicating large syntax-rule sets and keeps the combinations consistent.
 
-The Classic Syntax and 2026 Syntax variants retain the original workbench while using syntax definitions derived from Microsoft's Visual Studio Code themes.
+The `scripts/` directory contains utilities used to generate and organize theme variants. Generated theme files are part of the extension package.
 
-The Graphite variant inherits the original Minimal Color Dark syntax highlighting and overrides selected workbench color properties to create a softer graphite appearance.
+## Attribution and License
 
-The theme files are located in the `themes/` directory.
+The original syntax palette and custom workbench designs are part of Minimal Color Dark. The Classic and 2026 syntax definitions are derived from the Microsoft Visual Studio Code project and retain the applicable attribution and license notices.
 
-## Third-Party Attribution
-
-The Classic Syntax and 2026 Syntax variants contain syntax definitions derived from Microsoft's Visual Studio Code project.
-
-The 2026 syntax palette has been slightly desaturated to complement the Minimal Color Dark design.
-
-See [Third-Party Notices](THIRD_PARTY_NOTICES.md) for source attribution and applicable licensing information.
-
-## License
-
-The original Minimal Color Dark theme and its custom workbench variants are licensed under the [MIT License](LICENSE).
-
-Microsoft-derived syntax definitions retain their applicable MIT license and attribution, documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party sources and [LICENSE](LICENSE) for the extension's license.
