@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Minimal Color Dark (OLED Black, Classic Syntax)",
+  "name": "Minimal Color Dark — OLED Black · Dark Modern",
   "include": "./DARK-classic-color-theme.json",
   "colors": {
     "editor.background": "#000000",

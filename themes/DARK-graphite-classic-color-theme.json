@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Minimal Color Dark (Graphite, Classic Syntax)",
+  "name": "Minimal Color Dark — Graphite · Dark Modern",
   "include": "./DARK-classic-color-theme.json",
   "colors": {
     "editor.background": "#141414",

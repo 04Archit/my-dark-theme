@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Minimal Color Dark (Classic Syntax)",
+  "name": "Minimal Color Dark — Near-Black · Dark Modern",
   "semanticHighlighting": true,
   "colors": {
     "editor.background": "#0A0A0A",
@@ -282,8 +282,7 @@
     {
       "scope": "markup.italic",
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#C586C0"
+        "fontStyle": "italic"
       }
     },
     {
@@ -588,8 +587,7 @@
         "support.constant.math",
         "support.constant.dom",
         "support.constant.json",
-        "entity.other.inherited-class",
-        "punctuation.separator.namespace.ruby"
+        "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#4EC9B0"

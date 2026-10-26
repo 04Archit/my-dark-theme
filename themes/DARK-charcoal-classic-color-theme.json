@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Minimal Color Dark (Soft Charcoal, Classic Syntax)",
+  "name": "Minimal Color Dark — Soft Charcoal · Dark Modern",
   "include": "./DARK-classic-color-theme.json",
   "colors": {
     "editor.background": "#1B1B1B",

@@ -1,8 +1,8 @@
 {
   "name": "minimal-color-dark",
   "displayName": "Minimal Color Dark",
-  "description": "A collection of 15 minimal dark VS Code themes featuring 5 workbench styles and 3 syntax highlighting palettes: Custom Muted, Classic Dark+, and 2026 Dark.",
-  "version": "1.1.0",
+  "description": "15 minimal dark VS Code themes: 5 workbench styles with Custom Muted, Dark Modern (2024), and softened 2026 syntax palettes.",
+  "version": "1.1.2",
   "publisher": "Dark-Voyage",
   "icon": "images/iconcat.png",
   "galleryBanner": {
@@ -29,7 +29,7 @@
         "id": "Minimal Color Dark"
       },
       {
-        "label": "Minimal Color Dark — Near-Black · Classic",
+        "label": "Minimal Color Dark — Near-Black · Dark Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/DARK-classic-color-theme.json",
         "id": "Minimal Color Dark (Classic Syntax)"
@@ -47,7 +47,7 @@
         "id": "Minimal Color Dark (Graphite)"
       },
       {
-        "label": "Minimal Color Dark — Graphite · Classic",
+        "label": "Minimal Color Dark — Graphite · Dark Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/DARK-graphite-classic-color-theme.json",
         "id": "Minimal Color Dark (Graphite, Classic Syntax)"
@@ -65,7 +65,7 @@
         "id": "Minimal Color Dark (Soft Charcoal)"
       },
       {
-        "label": "Minimal Color Dark — Soft Charcoal · Classic",
+        "label": "Minimal Color Dark — Soft Charcoal · Dark Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/DARK-charcoal-classic-color-theme.json",
         "id": "Minimal Color Dark (Soft Charcoal, Classic Syntax)"
@@ -83,7 +83,7 @@
         "id": "Minimal Color Dark (OLED Black)"
       },
       {
-        "label": "Minimal Color Dark — OLED Black · Classic",
+        "label": "Minimal Color Dark — OLED Black · Dark Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/DARK-oled-classic-color-theme.json",
         "id": "Minimal Color Dark (OLED Black, Classic Syntax)"
@@ -101,7 +101,7 @@
         "id": "Minimal Color Dark (Warm Graphite)"
       },
       {
-        "label": "Minimal Color Dark — Warm Graphite · Classic",
+        "label": "Minimal Color Dark — Warm Graphite · Dark Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/DARK-warm-graphite-classic-color-theme.json",
         "id": "Minimal Color Dark (Warm Graphite, Classic Syntax)"

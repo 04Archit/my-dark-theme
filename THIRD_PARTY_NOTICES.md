@@ -1,10 +1,14 @@
 # Third-party notices
 
-The classic syntax-highlighting rules in `themes/DARK-classic-color-theme.json`
-were adapted from Microsoft Visual Studio Code version 1.125.0:
+The Dark Modern (December 2024) syntax-highlighting rules in
+`themes/DARK-classic-color-theme.json` are derived from Microsoft Visual
+Studio Code 1.96.2:
 - `extensions/theme-defaults/themes/dark_vs.json`
 - `extensions/theme-defaults/themes/dark_plus.json`
+- `extensions/theme-defaults/themes/dark_modern.json` (the parent theme selection)
 
+The `dark_modern.json` file adds workbench colors but no new syntax rules.
+This extension deliberately keeps its own workbench colors.
 The source is licensed under the MIT License:
 
 MIT License

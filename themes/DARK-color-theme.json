@@ -1747,7 +1747,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -1863,7 +1863,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -1879,7 +1879,7 @@
       "name": "JavaScript Methods",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -1890,7 +1890,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -1925,7 +1925,7 @@
       "name": "CSS IDs",
       "scope": ["source.sass keyword.control"],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -2031,7 +2031,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -2100,7 +2100,7 @@
       "name": "Markdown - Inline Code",
       "scope": ["text.html.markdown markup.inline.raw.markdown"],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -2214,7 +2214,7 @@
       "name": "Markup - Raw Block",
       "scope": ["markup.raw.block"],
       "settings": {
-        "foreground": "#C5A8BC"
+        "foreground": "#C9B49B"
       }
     },
 
@@ -2366,8 +2366,8 @@
     "property": "#B8C5B0",
     "enumMember": "#D4C08A",
 
-    "function": "#C5A8BC",
-    "method": "#C5A8BC",
+    "function": "#C9B49B",
+    "method": "#C9B49B",
 
     "event": "#C3A3B5",
     "macro": "#B8A8C8",

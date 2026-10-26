@@ -2,7 +2,7 @@
 
 **Five workbench styles. Three syntax palettes. Fifteen dark themes for Visual Studio Code.**
 
-Minimal Color Dark is a collection of understated VS Code color themes built around neutral workbench surfaces and a choice of syntax-highlighting styles. Choose the background that suits your workspace, then pair it with **Muted**, **Classic**, or **2026** syntax colors.
+Minimal Color Dark is a collection of understated VS Code color themes built around neutral workbench surfaces and a choice of syntax-highlighting styles. Choose the background that suits your workspace, then pair it with **Muted**, **Dark Modern (2024)**, or **2026** syntax colors.
 
 ## Choose a Workbench
 
@@ -23,10 +23,10 @@ All five workbenches retain the collection's minimal approach to tabs, panels, m
 Every workbench is available with each of these three highlighting options:
 
 - **Muted** — The original custom palette: subdued lavender keywords, mauve functions, sage-green strings, and warm neutral accents.
-- **Classic** — Familiar VS Code Dark+ syntax colors, including blue keywords, yellow functions, orange strings, and green comments.
+- **Dark Modern (2024)** — Syntax highlighting based on VS Code's Default Dark Modern theme from December 2024 (VS Code 1.96.2), retaining the familiar blue keywords, yellow functions, orange strings, and green comments.
 - **2026** — Syntax rules derived from VS Code's 2026 Dark theme, with colors softened to reduce saturation while retaining their distinctive hues.
 
-The Classic and 2026 palettes are based on Microsoft Visual Studio Code theme definitions; attribution is provided in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The Dark Modern (2024) and 2026 palettes are based on Microsoft Visual Studio Code theme definitions; attribution is provided in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## All 15 Theme Combinations
 
@@ -34,7 +34,7 @@ The theme picker uses a consistent naming convention:
 
 `Minimal Color Dark — [Workbench] · [Syntax]`
 
-| Workbench | Muted | Classic | 2026 |
+| Workbench | Muted | Dark Modern (2024) | 2026 |
 | --- | :---: | :---: | :---: |
 | Near-Black | Yes | Yes | Yes |
 | Graphite | Yes | Yes | Yes |
@@ -42,7 +42,7 @@ The theme picker uses a consistent naming convention:
 | OLED Black | Yes | Yes | Yes |
 | Warm Graphite | Yes | Yes | Yes |
 
-For example, select **Minimal Color Dark — Graphite · Classic** for the Graphite workbench with VS Code Dark+ syntax, or **Minimal Color Dark — OLED Black · 2026** for a pure-black workbench with the softened 2026 palette.
+For example, select **Minimal Color Dark — Graphite · Dark Modern (2024)** for the Graphite workbench with VS Code Dark+ syntax, or **Minimal Color Dark — OLED Black · 2026** for a pure-black workbench with the softened 2026 palette.
 
 ## Features
 
@@ -81,12 +81,12 @@ Open the folder containing `package.json` in VS Code, press `F5` to launch an **
 
 ### Theme Architecture
 
-The three syntax palettes are defined by the original, Classic, and 2026 theme files in `themes/`. Other workbench combinations use VS Code's theme `include` mechanism to inherit a syntax palette and override workbench colors. This avoids duplicating large syntax-rule sets and keeps the combinations consistent.
+The three syntax palettes are defined by the original, Dark Modern (2024), and 2026 theme files in `themes/`. Other workbench combinations use VS Code's theme `include` mechanism to inherit a syntax palette and override workbench colors. This avoids duplicating large syntax-rule sets and keeps the combinations consistent.
 
 The `scripts/` directory contains utilities used to generate and organize theme variants. Generated theme files are part of the extension package.
 
 ## Attribution and License
 
-The original syntax palette and custom workbench designs are part of Minimal Color Dark. The Classic and 2026 syntax definitions are derived from the Microsoft Visual Studio Code project and retain the applicable attribution and license notices.
+The original syntax palette and custom workbench designs are part of Minimal Color Dark. The Dark Modern (2024) and 2026 syntax definitions are derived from the Microsoft Visual Studio Code project and retain the applicable attribution and license notices.
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party sources and [LICENSE](LICENSE) for the extension's license.
